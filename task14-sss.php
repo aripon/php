@@ -57,7 +57,7 @@ function userChoiceCheck($convert){
 //コンピューターによるじゃんけん選択
 function cpChoice(){
     //定数を使用
-    $randam = mt_rand(0 , count(HAND-TYPE));
+    $randam = mt_rand(0 , count(HAND_TYPE));
     $cp_choice = $randam;
 
     return $cp_choice;
